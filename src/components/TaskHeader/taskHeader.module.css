@@ -1,3 +1,10 @@
 .taskHeader {
-  /* Sample */
+    
+    background-color: rgb(4, 160, 160);
+    color: white;
+    font-size: 26px;
+    
+}
+h1{
+  margin: 10px;
 }

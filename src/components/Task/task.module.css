@@ -1,3 +1,39 @@
 .task {
-  /* Sample  */
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  font-size: 20px;
+
+  
+    display: flex;
+    width: 90%;
+    align-items: center;
+    /* -webkit-user-select: none; */
+    user-select: none;
+    padding: 0.65rem 0;
+    text-align: left;
+}
+.task>input{
+ padding: 0px;
+ margin: 0px;
+ width: 10px;
+ height: 10px;
+
+}
+.task button{
+  background-color: whitesmoke;
+  font-weight: 400;
+  color: red;
+  font-size: 20px;
+}
+.stricked{
+  text-decoration: line-through;
+}
+.checkbox{
+  align-items: left;
+  size-adjust:24px;
+}
+input.checkbox{
+  width:40px;
+  height:40px;
 }
